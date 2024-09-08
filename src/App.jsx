@@ -1,15 +1,11 @@
-import { BrowserRouter } from "react-router-dom";
-import Rutas from "./routes/Rutas";
-Rutas;
-BrowserRouter;
+import { BrowserRouter as Router } from "react-router-dom";
+import RoutesViews from "./routes/RoutesViews";
 
 const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Rutas></Rutas>
-      </BrowserRouter>
-    </>
+    <Router>
+      <RoutesViews />
+    </Router>
   );
 };
 
