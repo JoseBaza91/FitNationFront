@@ -8,6 +8,7 @@ import ProductPage from "../pages/ProductPage";
 import UserPage from "../pages/UserPage";
 import AdminPage from "../pages/AdminPage";
 import ErrorPage from "../pages/ErrorPage";
+import PlanDetailsPage from "../pages/PlanDetailsPage";
 import NavbarC from "../components/NavbarC";
 import FooterC from "../components/FooterC";
 
@@ -23,6 +24,7 @@ const RoutesViews = () => {
         <Route path="/registro" element={<RegisterPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/plan-detalles" element={<PlanDetailsPage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
