@@ -8,6 +8,7 @@ import AdminProductPage from "../pages/AdminProductPage";
 import UserPage from "../pages/UserPage";
 import AdminPage from "../pages/AdminPage";
 import ErrorPage from "../pages/ErrorPage";
+import PlanDetailsPage from "../pages/PlanDetailsPage";
 import NavbarC from "../components/NavbarC";
 import FooterC from "../components/FooterC";
 import TurnosPage from "../pages/TurnosPage";
@@ -35,8 +36,9 @@ const RoutesViews = () => {
         <Route path="/turnos" element={<TurnosPage />} />
         <Route path="/iniciar-sesion" element={<LoginPage />} />
         <Route path="/registro" element={<RegisterPage />} />
-        <Route path="/contacto" element={<ContactPage />} />
-        <Route path="/sobre-nosotros" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/plan-detalles" element={<PlanDetailsPage />} />
         <Route path="/" element={<HomePage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
