@@ -63,7 +63,7 @@ const NavbarC = () => {
                   <NavLink to="/admin-usuarios" className="nav-link">
                     Panel de Usuarios
                   </NavLink>
-                  <NavLink to="/admin-productos" className="nav-link">
+                  <NavLink to="/productos" className="nav-link">
                     Panel de Productos
                   </NavLink>{" "}
                   <NavLink to="/" className="nav-link">
@@ -78,6 +78,9 @@ const NavbarC = () => {
                   </NavLink>
                   <NavLink to="/usuario-carrito" className="nav-link">
                     Carrito
+                  </NavLink>
+                  <NavLink to="/turnos" className="nav-link">
+                    Turnos
                   </NavLink>
                 </>
               )}
