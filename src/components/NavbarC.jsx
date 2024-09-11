@@ -96,7 +96,7 @@ const NavbarC = () => {
                   <NavLink to="/iniciar-sesion" className="nav-link">
                     Iniciar Sesion
                   </NavLink>
-                  <NavLink to="/registrarse" className="nav-link">
+                  <NavLink to="/registro" className="nav-link">
                     Registrarse
                   </NavLink>
                 </>

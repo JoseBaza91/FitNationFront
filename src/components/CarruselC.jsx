@@ -5,26 +5,27 @@ const CarouselC = () => {
     <>
       <Carousel fade>
         <Carousel.Item>
-          <img src="https://picsum.photos/1500/700?random=1" />
+          <img
+            src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            width={1500}
+          />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="https://picsum.photos/1500/700?random=2" />
+          <img
+            src="https://plus.unsplash.com/premium_photo-1664300904586-a51d4cbd2b8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            width={1500}
+          />
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src="https://picsum.photos/1500/700?random=3" />
+          <img src="https://images.unsplash.com/photo-1623874514711-0f321325f318?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width={1500} />
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+          
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
