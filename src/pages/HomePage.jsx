@@ -1,7 +1,20 @@
-
+import CardC from "../components/CardC";
+import CarruselC from "../components/CarruselC";
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <CarruselC />
+      <div className="container">
+        <div className="row">
+          <CardC />
+          <CardC />
+          <CardC />
+          <CardC />
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default HomePage;
