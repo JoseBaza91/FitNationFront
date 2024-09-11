@@ -1,28 +1,18 @@
-/* import { Router } from "react-router-dom";
-import RoutesViews from "./routes/RoutesViews";
-import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import Rutas from "./routes/Rutas";
+import Footer from "./components/Footer";
+import NavbarC from "./components/NavbarC";
 
 const App = () => {
   return (
     <>
-      <Router>
-        <RoutesViews />
-      </Router>
+      <BrowserRouter>
+        <NavbarC />
+        <Rutas />
+        <Footer />
+      </BrowserRouter>
     </>
   );
 };
 
-export default App;
- */
-
-import React from "react";
-
-const App = () => {
-  return (
-    <>
-      <h1>HOLA</h1>
-    </>
-  );
-};
-
-export default App;
+export default App; 
