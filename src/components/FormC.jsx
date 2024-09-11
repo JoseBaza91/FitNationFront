@@ -20,9 +20,9 @@ const FormC = ({ idPagina }) => {
     if (!usuario) {
       setErrores({ ...errores, usuario: true });
     }
-    if (!celular) {
+    /*    if (!celular) {
       setErrores({ ...errores, celular: true });
-    }
+    } */
     if (!contrasenia) {
       setErrores({ ...errores, contrasenia: true });
     }
@@ -40,7 +40,7 @@ const FormC = ({ idPagina }) => {
     }
 
     // Validación del celular
-    if (!celular) {
+    /*  if (!celular) {
       setErrores((prevErrors) => ({
         ...prevErrors,
         celular: "Número de celular vacío",
@@ -54,7 +54,7 @@ const FormC = ({ idPagina }) => {
           "Número de celular debe ser un número válido y no exceder los 20 caracteres",
       }));
       valid = false;
-    }
+    } */
 
     // Validacion contraseña
     if (contrasenia) {
@@ -95,7 +95,7 @@ const FormC = ({ idPagina }) => {
           id: usuarios[usuarios.length - 1]?.id + 1 || 1,
           Usuario: formRegister.usuario,
           contrasenia: formRegister.contrasenia,
-          celular: formRegister.celular,
+          /*  celular: formRegister.celular, */
           rol: "usuario",
           bloqueado: false,
           login: false,
@@ -138,7 +138,7 @@ const FormC = ({ idPagina }) => {
                 )}
               </Form.Group>
 
-              <Form.Group className="mb-3" controlId="formBasicCell">
+              {/*     <Form.Group className="mb-3" controlId="formBasicCell">
                 <Form.Label>Número de Celular</Form.Label>
                 <Form.Control
                   name="celular"
@@ -154,7 +154,7 @@ const FormC = ({ idPagina }) => {
                 {errores.celular && (
                   <p className="text-danger">{errores.celular}</p>
                 )}
-              </Form.Group>
+              </Form.Group> */}
 
               <Form.Group className="mb-3 " controlId="formBasicPassword">
                 <Form.Label>Contraseña</Form.Label>

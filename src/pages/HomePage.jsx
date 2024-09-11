@@ -11,6 +11,8 @@ const HomePage = () => {
           <CardC />
           <CardC />
           <CardC />
+          <CardC />
+          <CardC />
         </div>
       </div>
     </>
