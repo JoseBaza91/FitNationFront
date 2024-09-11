@@ -1,7 +1,10 @@
+import LoginComponent from "../components/Login";
 
 
-const LoginPage = () => {
-  return <div>LoginPage</div>;
+const LoginPage = ({ setUserIsLogged }) => {
+  return (
+    <LoginComponent setUserIsLogged={setUserIsLogged} />
+  )
 };
 
 export default LoginPage;
