@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-const FormC = () => {
-  return <div>FormC</div>;
-=======
 import { useState } from "react";
 import { Col, Row, Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
@@ -211,7 +207,6 @@ const FormC = ({ idPagina }) => {
       </Container>
     </>
   );
->>>>>>> registro
 };
 
 export default FormC;

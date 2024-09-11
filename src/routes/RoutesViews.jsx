@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import ContactPage from "../pages/ContactPage";
@@ -18,15 +17,10 @@ import AdminClass from "../pages/AdminClass";
 import ProductPage from "../pages/ProductPage";
 import UserCarPage from "../pages/UserCarPage";
 import UserFavPage from "../pages/UserFavPage";
-=======
-import { Route, Routes } from "react-router-dom";
-import RegisterPage from "../page/RegisterPage";
->>>>>>> registro
 
 const RoutesViews = () => {
   return (
     <>
-<<<<<<< HEAD
       <NavbarC />
       <Routes>
         <Route path="/admin-clases" element={<AdminClass />} />
@@ -47,11 +41,6 @@ const RoutesViews = () => {
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <FooterC />
-=======
-      <Routes>
-        <Route path="/registro" element={<RegisterPage />} />
-      </Routes>
->>>>>>> registro
     </>
   );
 };
